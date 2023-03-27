@@ -36,10 +36,10 @@ export function App() {
 
         <Route path="/blog" element={<Blog />} />
 
-        <Route path="/shop" element={<Shop />} />
-      </Routes>
+        <Route path="/shop" element={<Shop />} />      </Routes>
     </React.Suspense>
   );
 }
+
 
 export default App;
